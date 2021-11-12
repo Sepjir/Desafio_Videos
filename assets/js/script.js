@@ -9,7 +9,7 @@ const IIFE = (() => {
 
 })()
 
-//Clases Padre (Multimedia) e Hija (Reproductor) para crear instancias de videos, las cuales contienen 
+//Clases Padre (Multimedia) e Hija (Reproductor) para crear instancias de videos, las cuales contienen elementos privados con #
 class Multimedia {
     #url
     constructor (url) {
